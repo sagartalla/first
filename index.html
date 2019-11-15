@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @font-face {
+                font-family: LittleLordFontleroyNF;
+                src: url('./LittleLordFontleroyNF.ttf');
+            }
+            body {
+                font-family: LittleLordFontleroyNF;
+                text-align: center;
+            }
+            .wrap {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            .title-wrap {
+                display: flex;
+                align-items: baseline;
+                justify-content: space-around;
+                width: 100%;
+            }
+            .big {
+                font-size: 100px;
+            }
+            .big-2 {
+                font-size: 60px;
+            }
+            .small {
+                font-size: 50px;
+            }
+            .small-2 {
+                font-size: 40px;
+            }
+            .banner {
+                width: 50%;
+                display: block;
+                margin: 50px auto;
+                border-radius: 50%;
+                box-shadow: 1px 0px 50px 0px;
+            }
+            @media only screen 
+            and (min-device-width: 375px) 
+            and (max-device-width: 667px) 
+            and (-webkit-min-device-pixel-ratio: 2) { 
+                .small-2 {
+                    font-size: 33px;
+                    line-height: 1.5em;
+                }
+                .big {
+                    font-size: 80px;
+                }
+                .banner {
+                    width: 80%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="small-2">We're getting married!</div>
+            <div class="small-2">Please join us for the reception dinner</div>
+            <div class="small-2">And help us celebrate the happy occasion!</div>
+            <img class="banner" src="./img.jpeg" />
+            <div class="title-wrap">
+                <span class="big">Sagar</span> 
+                <span class="small">&</span>
+                <span class="big">Bhakti</span>
+            </div>
+            <hr />
+            <div class="small-2">
+                <span>Annasaheb Vartak Smarak Mandir</span>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.123355954809!2d72.837896!3d19.0183627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b4cbd4178f6152e!2sAnnasaheb%20Vartak%20Smarak%20Mandir!5e0!3m2!1sen!2sin!4v1573835013460!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </body>
+</html>
